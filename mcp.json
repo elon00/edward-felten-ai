@@ -1,0 +1,51 @@
+{
+  "name": "edward-felten-ai-mcp",
+  "version": "1.0.0",
+  "description": "Edward Felten AI Model Context Protocol Server for Autonomous Layer-2 Blockchain Execution, Arbitrum Optimistic Rollups, Verifiable DRM Auditing & Technology Public Policy Protocol",
+  "tools": [
+    {
+      "name": "audit_optimistic_fraud_proof",
+      "description": "Execute interactive bisection games over disputed state transitions in Layer-2 execution traces to verify fraud-proof soundness",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "assertion_hash": {
+            "type": "string"
+          },
+          "bisection_step": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "assertion_hash"
+        ]
+      }
+    },
+    {
+      "name": "disburse_layer2_scalability_grant",
+      "description": "Trigger automated micro-escrow releases for Arbitrum ecosystem tooling, WASM prover optimizations, and digital rights security audits",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
